@@ -83,8 +83,6 @@ const loopingMyTeam = () => {
       console.log("Error")
     }
   
-    console.log(convertedGen)
-
     if (habitat == null) {
       habitat = { name: "Unknown" };
     }
