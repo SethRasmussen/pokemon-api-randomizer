@@ -41,6 +41,7 @@ label {
 li {
     text-align: left;
     text-transform: capitalize;
+    font-size: 12px;
 }
 footer {
     /* bottom: 0px; */
