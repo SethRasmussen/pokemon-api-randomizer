@@ -4,6 +4,7 @@ let allPokemonOptions = [];
 let typePokemon = [];
 let genPokemon = [];
 const errCallback = (err) => console.log(err);
+
 module.exports = {
   shufflePokemon: (req, res) => {
     const genID = req.body.genID;
@@ -23,7 +24,6 @@ module.exports = {
         allPokemonOptions = await fetchAllPokemon();
 
         selectedPokemonId = allPokemonOptions[getRandomNumber(allPokemonOptions.length)];
-        // selectedPokemonId = 773
 
         pokemonUrl = `https://pokeapi.co/api/v2/pokemon-species/${selectedPokemonId}/`;
         axios.get(pokemonUrl).then(async (res3) => {
@@ -37,7 +37,6 @@ module.exports = {
 };
 
 function fetchAllPokemon() {
-  //   return Promise.all().then((response) => {
   let applicablePokemon = [];
  
 

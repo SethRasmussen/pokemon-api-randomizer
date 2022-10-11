@@ -44,7 +44,6 @@ li {
     font-size: 12px;
 }
 footer {
-    /* bottom: 0px; */
     display: flex;
     justify-content: center;
     background-color: #e6403e;
@@ -121,7 +120,6 @@ footer {
     position: relative;
     left: 10px;
     margin: 20px;
-    /* border: solid black; */
     border-width: 2px;
     border-radius: 10%;
     display: flex;
