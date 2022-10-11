@@ -45,14 +45,18 @@ li {
 footer {
     /* bottom: 0px; */
     display: flex;
+    justify-content: center;
     background-color: #e6403e;
     height: 70px;
     width: 100%;
-    color: #fff
+    color: #fff;
+    border-top: 10px solid black;
 
 }
 #shuffleButton {
     cursor: pointer;
+    width: 118px;
+    border-radius: 5px;
 }
 #selection-container {
     display: flex;
@@ -83,6 +87,9 @@ footer {
     bottom: 0px;
     font-size: 15px;
     width: 180px;
+}
+#add-Btn {
+    border-radius: 5px;
 }
 #my-team-container {
     display: flex;
