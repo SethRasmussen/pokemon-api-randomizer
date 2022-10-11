@@ -1,0 +1,175 @@
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0px;
+    background-color: #e1e6e4;
+    background-image: url("https://www.pngitem.com/middle/JTRwTJ_pokeball-png-free-download-pokemon-pokeball-logo-png/")
+}
+header, .title {
+    display: flex;
+    justify-content: center;
+    background-color: #e6403e;
+    color: #fff;
+    text-align: center;
+    height: 100px;
+    min-width: 100%;
+    margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+    border-bottom: 10px solid black;
+}
+main{
+    position: relative;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 20px;
+}
+h3 {
+   font-size: 20px;
+}
+
+.selects {
+    width: 90px;
+}
+label {
+    font-size: 15px;
+}
+li {
+    text-align: left;
+    text-transform: capitalize;
+}
+footer {
+    /* bottom: 0px; */
+    display: flex;
+    background-color: #e6403e;
+    height: 70px;
+    width: 100%;
+    color: #fff
+
+}
+#shuffleButton {
+    cursor: pointer;
+}
+#selection-container {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: stretch;
+	align-content: space-around;
+}
+.picker-title {
+    font-size: 30px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-width: 160px;
+    background-color: #9ea3a1;
+    border-width: 2px;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 10px;
+}
+#pokemon-result-container {
+    height: 300px;
+    position: relative;
+    bottom: 0px;
+    font-size: 15px;
+    width: 180px;
+}
+#my-team-container {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 400px;
+}
+
+#my-team-header {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #e6403e;
+    color: #fff;
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    height: 70px;
+	padding: 0;
+	border: 0;
+    font-size: 100%;
+	font: inherit;
+	vertical-align: baseline
+}
+
+.my-team-card {
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+    margin: 20px;
+    /* border: solid black; */
+    border-width: 2px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 170px;
+    min-width: 170px;
+    background-color: #9ea3a1;
+    padding: 10px;
+    position: relative;
+    max-height: 265px;
+}
+
+.team-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.poke-stats-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    float: left;
+}
+#remove-button {
+    border-radius: 40%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+.selected-pokemon-name {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+#firstShflBtn {
+    width: 100px;
+    font-size: 20px;
+}
+.selectedPokemon-btns {
+    width: 75px;
+    font-size: 10px;
+    cursor: pointer;
+
+}
+#randomPokemonPick {
+    text-transform: capitalize;
+}
+
+
+.team-list li:first-letter {
+    text-transform: capitalize;
+}
+
