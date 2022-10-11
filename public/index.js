@@ -11,7 +11,8 @@ let removeBtn = document.querySelector("#removeBtn");
 let imgUrl = "";
 
 // e is element could be pokemon if wanted
-const myTeamUrl = "http://localhost:4000/api/myteam";
+const myTeamUrl = window.location.href + "api/myteam";
+console.log(myTeamUrl)
 
 const shufflePokemonSite = () => {
   const genID = genSelect.value;
