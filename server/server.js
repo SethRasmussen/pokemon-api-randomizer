@@ -7,7 +7,8 @@ const path = require("path")
 
 
 const app = express()
-const port = process.env.port;
+const PORT = process.env.PORT || 4000;
+
 
 const { shufflePokemon } = require("./controller");
 
@@ -37,4 +38,4 @@ app.post('/api/myteam/', shufflePokemon);
 
 
 
-app.listen(port, () => console.log('Server running'))
+app.listen(PORT, () => console.log('Server running'))
