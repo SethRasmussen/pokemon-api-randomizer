@@ -12,7 +12,6 @@ let imgUrl = "";
 
 // e is element could be pokemon if wanted
 const myTeamUrl = window.location.href + "api/myteam";
-console.log(myTeamUrl)
 
 const shufflePokemonSite = () => {
   const genID = genSelect.value;

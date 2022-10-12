@@ -1,0 +1,15 @@
+Documentation Planning
+
+1. Wireframe and Style Guide jpeg in host directory.
+
+2. List of MVPs 
+- Needs API call for type working
+- Needs API call for GEN working
+- Post of selected pokemon needs to be working
+- Needs to be able to then display the random pokemon
+- Needs to be able to bee added to My Team Section when button is clicked
+- Remove from my team btn needs to work
+
+3. My data module is simple since I dont use any data bases. 
+My Server is posting a returned pokemon object and all of it data to my front end. 
+I am currently only dispalying a small portion of the object on the pokemon card but in the future I plan to display much more and utilize the data I have stored for more features. 

@@ -29,7 +29,7 @@ module.exports = {
         axios.get(pokemonUrl).then(async (res3) => {
             let selectedPokemon = res3.data
             res.status(200).send(selectedPokemon);
-        });
+            });
 
          
       });
@@ -46,7 +46,6 @@ function fetchAllPokemon() {
       applicablePokemon.push(poke.id);
     }
   });
-  console.log(applicablePokemon.length);
   return applicablePokemon;
 }
 
