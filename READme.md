@@ -1,10 +1,10 @@
 # This project is called the PokeApi Team Builder. 
 
-**Seth Rasmussen is the lone contributer to the project. However I do want to thank Parker King, Zack Rogers, & Rebecca Webb for insight and advice to get help ths project running.** 
+**Seth Rasmussen is the lone contributer to the project. However I do want to thank Parker King, Zack Rogers, & Rebecca Webb for insight and advice to help get this project running.** 
 
 # The Project #
 
-The PokeApi Team Builder is a small application designed to give the user a random pokemon (taken from the PokeAPI) based on a determined type and generation the user sets.  
+The PokeApi Team Builder is a small application designed to give the user a random pokemon (taken from the PokeAPI) based on a determined type and generation the user sets. The user can then add the received Pokemon to their team or shuffle again.
 
 # How to Use #
 
