@@ -8,7 +8,7 @@ The PokeApi Team Builder is a small application designed to give the user a rand
 
 # How to Use #
 
-To use the PokeAPI team builder just go to the URL [Link](https://pokeapi-team-builder.herokuapp.com/)
+To use the PokeAPI team builder just go to the URL [Link](https://pokeapi-team-builder.herokuapp.com/) ||  https://pokeapi-team-builder.herokuapp.com/
 
 The primary features of the application and how to use them are as such:
 
